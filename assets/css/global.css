@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  color: #555;
+  font-weight: 400;
+}
+
+.margin-right-small {
+  margin-right: 1.6rem;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 4.8rem !important;
+}
+
+.margin-bottom-large {
+  margin-bottom: 6.4rem !important;
+}
+
+.text-align {
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: all 0.6s;
+  border: none;
+  cursor: pointer;
+}
+.btn.btn-full:link, .btn.btn:visited,
+.btn:link.btn-full:link,
+.btn:link.btn:visited,
+.btn:visited.btn-full:link,
+.btn:visited.btn:visited {
+  background-color: #e67e22;
+}
+.btn.btn-full:link:hover, .btn.btn:visited:hover,
+.btn:link.btn-full:link:hover,
+.btn:link.btn:visited:hover,
+.btn:visited.btn-full:link:hover,
+.btn:visited.btn:visited:hover {
+  background-color: #cf711f;
+}
+.btn.btn-outline:link, .btn.btn-outline:visited,
+.btn:link.btn-outline:link,
+.btn:link.btn-outline:visited,
+.btn:visited.btn-outline:link,
+.btn:visited.btn-outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+.btn.btn-outline:link:hover, .btn.btn-outline:visited:hover,
+.btn:link.btn-outline:link:hover,
+.btn:link.btn-outline:visited:hover,
+.btn:visited.btn-outline:link:hover,
+.btn:visited.btn-outline:visited:hover {
+  background-color: #f0b27a;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.conteiner {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  /* -moz-column-gap: 6.4rem; */
+       column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-align-self {
+  align-items: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.vegan {
+  background-color: #a9e34b;
+}
+
+.vegetarian {
+  background-color: #d8f5a2;
+}
+
+.paleo {
+  background-color: #ffe066;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.heading-primary .heading-secondery {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 4.5rem;
+}
+
+.heading-secondery {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list .list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+.list .list-item .list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.justify-self {
+  justify-self: end;
+}

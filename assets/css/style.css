@@ -1,0 +1,26 @@
+/* COLOR:
+Primery: #e67e22
+Tints: #fdf2e9,#f0b27a,#cf711f
+Grays:
+#333;
+#555
+#6f6f6f
+*/
+
+@import 'global.css';
+
+@import 'fotter.css';
+@import 'featurs.css';
+@import 'section-plan-details.css';
+@import 'section-pricing.css';
+@import 'section-testimonials.css';
+@import 'ection-meals.css';
+@import 'section-how.css';
+@import 'section-hero .css';
+@import 'header.css';
+@import 'section-featured.css';
+@import 'cta.css';
+@import 'media-quries.css';
+
+
+

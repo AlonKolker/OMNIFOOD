@@ -1,0 +1,66 @@
+.section-cta .cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  margin-bottom: 9.4rem;
+}
+.section-cta .cta *:focus {
+  outline: 8px solid rgba(163, 157, 157, 0.542);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.section-cta .cta .cta-img-box {
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url("../imgs/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section-cta .cta .cta-text-box {
+  color: #2e1907;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.section-cta .cta .cta-text-box .heading-secondery {
+  color: #2e1907;
+  margin-bottom: 3.2rem;
+}
+.section-cta .cta .cta-text-box .cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+.section-cta .cta .cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 3.2rem;
+       column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.section-cta .cta .cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.section-cta .cta .cta-form input,
+.section-cta .cta .cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: inherit;
+}
+.section-cta .cta .cta-form input::-moz-placeholder, .section-cta .cta .cta-form select::-moz-placeholder {
+  color: #aaa;
+}
+.section-cta .cta .cta-form input:-ms-input-placeholder, .section-cta .cta .cta-form select:-ms-input-placeholder {
+  color: #aaa;
+}
+.section-cta .cta .cta-form input::placeholder,
+.section-cta .cta .cta-form select::placeholder {
+  color: #aaa;
+}
